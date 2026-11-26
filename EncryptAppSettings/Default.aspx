@@ -8,13 +8,25 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <h2>AppSettings</h2>
         <div>
-            Value From encrypted:
+            <b>Value Read From encrypted:</b>
             <asp:Label ID="lblAppSettingValue" runat="server" Text=""></asp:Label>
         </div>
+        <br />
         <div>
-            Real Value:
-            <asp:Label ID="lblAppSettingSupposedValue" runat="server" Text="abc23423423Xysdf_asdf3"></asp:Label>
+            <b>Real Value:</b>
+            <asp:Label ID="lblAppSettingSupposedValue" runat="server" Text=" myuser - mypassword"></asp:Label>
+        </div>
+        <h2>Connection String</h2>
+        <div>
+            <b>Value Read From encrypted:</b>
+            <asp:Label ID="Label11" runat="server" Text=""></asp:Label>
+        </div>
+        <br />
+        <div>
+            <b>Real Value:</b>
+            <asp:Label ID="Label22" runat="server" Text=" Server=localhost;Database=MyDB;User ID=myuser;Password=mypassword;"></asp:Label>
         </div>
     </form>
 </body>

@@ -7,8 +7,16 @@ namespace EncryptAppSettings
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            string username = ConfigurationManager.AppSettings["ApiUser"];
 
-           lblAppSettingValue.Text =  ConfigurationManager.AppSettings["clientSecret"];
+            string password = ConfigurationManager.AppSettings["ApiPassword"];
+
+            lblAppSettingValue.Text = $"{username} - {password}";
+
+
+            string connectionString = ConfigurationManager.ConnectionStrings["MyDb"].ConnectionString;
+
+            Label11.Text = connectionString;
 
         }
     }
