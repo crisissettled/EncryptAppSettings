@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<connectionStrings configProtectionProvider="DataProtectionConfigurationProvider">
+ <EncryptedData>
+  <CipherData>
+   <CipherValue>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAApMJFl0vtCEeD14pO3z8NaQQAAAACAAAAAAAQZgAAAAEAACAAAADPoUqr8aFLxNv763+7piHYTPxvwvccq+P4NvYWAGxiPAAAAAAOgAAAAAIAACAAAAAdXjiJZDT7vYdkNHzdiPKqK/FxDoUksALBJawQ3CIbUoABAABqVd118xs4mOHdq+qco5W5QyOaOCtl6vebWc/hjeUCjE63GUBxUELjkokPJ7C/k2oMunhYiph7vuUkWmG97d2qK6NQsvWcp0SQi8qWlt2KhMFROAoq0IwFFIZ5vDjMLacAFPL5Awr7fLvhsz/ouhn91+eMBkIWh2V+S2/1oZ9nH6gtgr5M4wuchhkzzhFc+wkRuxH85F1knIMoIbGseV27f5sCU50mruPKPUNEb4CkPvHxnAasBBlksR4QZn8k+P6zv3TrFhiHKvNGxgrSYXMy1xLH/K0MyWr6q0SLUlgY6XXHMuwlZYeVJfuyd8RmodFjMEnFfomDvFCEAwfUqjsnq17u+S2qGuhJzgbmPp3jqvrnZ4keEvmkB/TMTcDh+N/+I27iyaiRCp6znGViSPb799LLAI6w0ldhrJCbmWTQ/RPRvxGLgt3wR2Yy3eyC+ZZjQW1FqErt2F9GPbXcz20F2+dr/6XXmk+EKV8OXZJcYMW5JQbmy/XwtcSrYNhspCpAAAAA0becDVEn6FON9h1QSYz5iC4PJH/clCH6Ab+8QGd5YFSs/V1PwCu3H0u69BkvB0Eag6Zi4qz+2zH4d1ukYaqBfw==</CipherValue>
+  </CipherData>
+ </EncryptedData>
+</connectionStrings>
