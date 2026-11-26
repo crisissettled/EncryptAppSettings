@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Configuration;
+using System.Web;
 using System.Web.Configuration;
 
 namespace EncryptAppSettings
@@ -32,6 +33,8 @@ namespace EncryptAppSettings
                 sectionConnectionString.SectionInformation.ForceSave = true;
 
                 config.Save(ConfigurationSaveMode.Modified);
+
+                HttpRuntime.UnloadAppDomain();
             }
 
 
